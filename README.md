@@ -81,8 +81,8 @@
 >     data:
 >        {
 >            "bucketName":"talaura-docker-bucket",
->            "awsAccessKeyId":"AKIAXYKJWKKMKH6UYSQ7",
->            "awsSecretAccessKey":"RUyvbnFN37X8u8TNqw9ivUCndjcY",
+>            "awsAccessKeyId":"AKIAXY7JWHKMKT6UESQ7",
+>            "awsSecretAccessKey":"RUyvbnFN37XuTNqw9iKvHCndjcY",
 >            "bucketUrl":"s3://talaura-docker-bucket/nayka"
 >        }
 >     } 
