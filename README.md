@@ -7,9 +7,9 @@
 *request* -
 >     {
 >        "macAddress": "00:1B:44:11:3A:B7"
->     } 
+>     }
+ 
 
-**First Time Reponse - **
 *response* -
 >     {
 >     status:true,
@@ -20,7 +20,16 @@
 >        }
 >     } 
 
-**Second Time Reponse - **
+
+## Second API - When user clicks on get Info Button
+**```API Type```** - POST
+**```Endpoint```** - /api/docker/getInfo
+**```Content-Type```** - `application/json`
+*request* -
+>     {
+>        "dockerId": "xyz"
+>     } 
+
 *response* -
 >     {
 >     status:true,
@@ -36,8 +45,7 @@
 
 
 
-
-## Second API - when user enter 6 digit code
+## Third API - when user enter 6 digit code
 **```API Type```** - POST
 **```Endpoint```** - /api/salesPerson/login
 **```Content-Type```** - `application/json`
@@ -60,7 +68,7 @@
 >     } 
 
 
-## Third API - when user undock wearable
+## Four API - when user undock wearable
 **``Note = 1. [When user try to unmount wearable without entering code error message should be display "Unauthorized Access"]
 2. [User Info file will be created on wearable]``** 
 **```API Type```** - POST
@@ -88,7 +96,7 @@
 >     } 
 
 
-## Fourth API - when user redock wearable
+## Five API - when user redock wearable
 
 **``Note = When user remount wearable to docker data will be uploaded to S3 and User Info detail will be deleted from wearable``** 
 
