@@ -76,8 +76,9 @@
 *request* -
 >     {
 >        "email": "manoj@ymail.com",
->        "wearableId":"xyz",
->        "dockerId":"zyt"
+>        "wearableId":"xyz", //wearable id can be found from text file stored on device named "DEVID.txt" - DEVICEID:<DeviceID>
+>        "dockerId":"zyt",
+>        "wearableMacAddress":"xyz"
 >     } 
 
 
