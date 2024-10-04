@@ -138,7 +138,7 @@
 >            "bucketName":"talaura-docker-bucket",
 >            "awsAccessKeyId":"AKIAXY7JWHKMKT6UESQ7",
 >            "awsSecretAccessKey":"RUyvbnFN37XuTNqw9iKvHCndjcY",
->            "bucketUrl":"s3://talaura-docker-bucket/<companydisplayname>/<storeId>/"
+>            "bucketUrl":"s3://talaura-docker-bucket/<companydisplayname>/<storeId>/<email>"
 >        }
 >     } 
 
