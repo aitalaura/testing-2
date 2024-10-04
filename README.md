@@ -130,8 +130,7 @@
 >     {
 >        "email": "manoj@ymail.com",
 >        "wearableId":"xyz",
->        "dockerId":"zyt",
->        "awsUrl":[]
+>        "dockerId":"zyt"
 >     } 
 
 
