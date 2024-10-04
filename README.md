@@ -36,7 +36,6 @@
 >     message:”Docker detail fetched”,
 >     data:
 >        {
->          "dockerId": "f6c9126d33a7",
 >          "companyName": "Acme Corp",
 >          "displayName": "ACME Server",
 >          "storeId": "123456”
@@ -88,10 +87,6 @@
 >     message:”Wearable unmount successfully”,
 >     data:
 >        {
->            "bucketName":"talaura-docker-bucket",
->            "awsAccessKeyId":"AKIAXY7JWHKMKT6UESQ7",
->            "awsSecretAccessKey":"RUyvbnFN37XuTNqw9iKvHCndjcY",
->            "bucketUrl":"s3://talaura-docker-bucket/nayka"
 >        }
 >     } 
 
@@ -118,5 +113,9 @@
 >     message:”Wearable Remount successfully”,
 >     data:
 >        {
+>            "bucketName":"talaura-docker-bucket",
+>            "awsAccessKeyId":"AKIAXY7JWHKMKT6UESQ7",
+>            "awsSecretAccessKey":"RUyvbnFN37XuTNqw9iKvHCndjcY",
+>            "bucketUrl":"s3://talaura-docker-bucket/nayka"
 >        }
 >     } 
