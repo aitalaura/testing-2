@@ -94,6 +94,33 @@
 
 ## Five API - when user redock wearable
 
+**```API Type```** - POST
+**```Endpoint```** - /api/wearable/remount
+**```Content-Type```** - `application/json`
+*request* -
+>     {
+>        "email": "manoj@ymail.com",
+>        "wearableId":"xyz",
+>        "dockerId":"zyt"
+>     } 
+
+
+*response* -
+>     {
+>     status:true,
+>     message:”Wearable Remount successfully”,
+>     data:
+>        {
+>            "bucketName":"talaura-docker-bucket",
+>            "awsAccessKeyId":"AKIAXY7JWHKMKT6UESQ7",
+>            "awsSecretAccessKey":"RUyvbnFN37XuTNqw9iKvHCndjcY",
+>            "bucketUrl":"s3://talaura-docker-bucket/nayka/storeName/"
+>        }
+>     } 
+
+
+## Six API - when file upload process 
+
 **``Note = When user remount wearable to docker data will be uploaded to S3 and User Info detail will be deleted from wearable``** 
 
 **```API Type```** - POST
