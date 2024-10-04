@@ -58,11 +58,11 @@
 *response* -
 >     {
 >     status:true,
->     message:”sales person's detail fetched”,
+>     message:”sales person's details fetched”,
 >     data:
 >        {
 >          "name": "Manoj",
->          "email":"manoj@ymail.com"
+>          "email":"manoj@ymail.com",
 >        }
 >     } 
 
@@ -138,7 +138,7 @@
 >            "bucketName":"talaura-docker-bucket",
 >            "awsAccessKeyId":"AKIAXY7JWHKMKT6UESQ7",
 >            "awsSecretAccessKey":"RUyvbnFN37XuTNqw9iKvHCndjcY",
->            "bucketUrl":"s3://talaura-docker-bucket/nayka/storeName/"
+>            "bucketUrl":"s3://talaura-docker-bucket/<companydisplayname>/<storeId>/"
 >        }
 >     } 
 
