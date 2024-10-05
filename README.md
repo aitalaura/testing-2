@@ -99,7 +99,6 @@
 **```Content-Type```** - `application/json`
 *request* -
 >     {
->        "email": "manoj@ymail.com",
 >        "wearableId":"xyz",
 >        "dockerId":"zyt"
 >     } 
@@ -109,6 +108,7 @@
 >     {
 >     status:true,
 >     message:”Wearable Remount successfully”,
+>     "email": "manoj@ymail.com",
 >     data:
 >        {
 >            "bucketName":"talaura-docker-bucket",
